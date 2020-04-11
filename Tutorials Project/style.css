@@ -1,2 +1,47 @@
-﻿body {
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
+
+    /*login page*/
+
+#loginSection {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(229, 252, 245, 1);
+    background: url(https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: 100%;
+}
+.header {
+    font-size: 6em;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    color: rgba(179, 222, 193, 1);
+    text-shadow: 2px 2px 3px #D3BDB0;
+}
+#loginInput {
+    text-align: center;
+    color: rgba(179, 222, 193, 1);
+    font-size: 3em;
+}
+    #loginInput label {
+        margin: 30px;
+        background-color: rgba(179, 222, 193, 1);
+        opacity: 0.2;
+        color: #514A4E;
+    }
+    #loginInput input {
+        background-color: #D3BDB0;
+        color: #514A4E;
+        letter-spacing: 1.5px;
+        font-weight: bolder;
+        font-size: 50%;
+        margin: .3%;
+    }
