@@ -4,12 +4,43 @@
     border: 0;
     height: 100%;
     width: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-    /*login page*/
+    /*login page and main page*/
 
-#loginSection {
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: fixed;
+}
+
+li {
+    margin: 0;
+    opacity: .2;
+    background-color: rgba(179, 222, 193, 1);
+    box-sizing: border-box;
+    width: 33.3%;
+    float: left;
+    border: 2px solid black;
+}
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 2em;
+    }
+        li a:hover {
+            background-color: yellowgreen;
+        }
+
+.main {
     height: 100%;
     width: 100%;
     background-color: rgba(229, 252, 245, 1);
@@ -17,31 +48,54 @@
     background-size: 100%;
 }
 .header {
-    font-size: 6em;
-    letter-spacing: 3px;
+    font-size: 6.8em;
+    letter-spacing: 4px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 5%;
-    padding-top: 3%;
+    padding-top: 6%;
     color: rgba(179, 222, 193, 1);
     text-shadow: 2px 2px 3px #D3BDB0;
 }
-#loginInput {
+.input {
     text-align: center;
     color: rgba(179, 222, 193, 1);
     font-size: 3em;
+    letter-spacing: 2px;
 }
-    #loginInput label {
+    .input label {
+        position: relative;
         margin: 30px;
         background-color: rgba(179, 222, 193, 1);
         opacity: 0.2;
         color: #514A4E;
+        padding-bottom: 9%;
+        margin-bottom: 2%;
+        border: 2px solid black;
     }
-    #loginInput input {
+    .input input {
+        position: relative;
         background-color: #D3BDB0;
         color: #514A4E;
-        letter-spacing: 1.5px;
         font-weight: bolder;
         font-size: 50%;
         margin: .3%;
+        z-index: 1;
     }
+
+/*graph and comparison page*/
+
+.section {
+    height: 30%;
+    width: 40%;
+    float: left;
+    background-color: rgba(179, 222, 193, 1);
+    opacity: 0.5;
+    margin: 5%;
+    box-shadow: -5px 7px 3px 2px black;
+}
+.section p{
+    margin: 2%;
+    color: black;
+    font-size: 2em;
+}

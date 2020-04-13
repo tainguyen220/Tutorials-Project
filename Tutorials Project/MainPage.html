@@ -3,9 +3,34 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Weight Tracker</title>
 </head>
 <body>
+    <script src="https://unpkg.com/mithril/mithril.js"></script>
+    <script src="tutorialProject.js"></script>
 
+    <nav>
+        <ul>
+            <li><a href="MainPage.html">Daily Weight</a></li>
+            <li><a href="graphPage.html">Your progress</a></li>
+            <li><a href="goalPage.html">Your Weight Logs</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="main">
+
+        <h1 class="header" id="mainPageHeader">Welcome Name!</h1>
+        <div class="input">
+            <label>Please enter your weight for today:</label><br />
+            <input type="text" id="weightInput" /><br />
+
+            <input type="button" id="weightEnterButton" value="Enter" />
+        </div>
+
+    </div>
 </body>
 </html>
